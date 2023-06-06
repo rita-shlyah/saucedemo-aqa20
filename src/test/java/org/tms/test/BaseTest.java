@@ -5,8 +5,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.tms.driver.DriverSingleton;
+import org.tms.utils.TestListener;
 
-@Listeners
+@Listeners(TestListener.class)
 public class BaseTest {
 
     protected WebDriver driver;
