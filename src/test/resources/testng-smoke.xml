@@ -7,9 +7,9 @@
             </class>
         </classes>
     </test>
-    <test name="Login Page Test2">
+    <test name="Shopping Cart Page Test">
         <classes>
-            <class name="org.tms.test.LoginPageTest"/>
+            <class name="org.tms.test.ShoppingCartPageTest"/>
         </classes>
     </test>
     <test name="Login Page Test3">
